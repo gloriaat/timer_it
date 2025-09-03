@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "Pixelify Sans", monospace;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+  font-family: "Share Tech mono", monospace;
+
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.buttons .top{
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  height: 37px;
+  padding: 6px 10px;
+  position: relative;
+  width: 140px;
+
+  color: black;
+  /* font-size: 18px;
+  font-weight: 400; */
+  font-family: "Share Tech mono", monospace;
+  height: 25px;
+  left: 0;
+  letter-spacing: 0;
+  text-align: center;
+  top: 0;
+  padding: 10px;
+  width: 119px;
+}
+
+.buttons .bottom{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  height: 37px;
+  padding: 6px 10px;
+  position: relative;
+  width: 140px;
+
+  color: black;
+  /* font-size: 18px; */
+  /* font-weight: 400; */
+  height: 25px;
+  left: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  top: 0;
+  width: 119px;
+  margin-bottom: 40px;
+}
+
+
+.timer-display{
+  display: flex;
+  width: 313px;
+  height: 198px;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color:black;
+  text-align: center;
+  font-family:"Share Tech Mono", monospace;
+  font-size: 92px;
+  height: 198px;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  top: 0;
+  width: 313px;
+}
+
+.Listing{
+  background-color: #5e936c;
+  border-radius: 16px;
+  height: 500px;
+  width: 503px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.Listing ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Listing li{
+  /* margin: 5px 0; */
+  /* padding: 8px;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px; */
+
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  
+}
+
+.inputRow{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.myInput{
+  font-family: "Pixelify Sans", monospace;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 250px;
+  outline: none;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  flex: 1;
+}
+
+
+.addBtn{
+  font-family: "Pixelify Sans", monospace;
+  background-color: #bbb;
+  outline: none;
+  border: none; 
+  cursor: pointer;
+  padding: 7.3px 10px;
+}
+
+.deleteBtn{
+  font-family: "Pixelify Sans", monospace;
+  background-color: #bbb;
+  
+  /* padding: 4px 10px; */
+  /* border: none; */
+  cursor: pointer;
+  margin-left: 20px;
+}
